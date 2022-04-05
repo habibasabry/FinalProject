@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "448502374276",
+    "project_id": "aween-3da5e",
+    "storage_bucket": "aween-3da5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448502374276:android:2fab623ea259f30266c7d1",
+        "android_client_info": {
+          "package_name": "com.example.aween"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448502374276-412ogeng0seti5kevuuhdkesahf0oquo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJmY-VhIOVR604QmmWDKht8stGmd0APVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448502374276-412ogeng0seti5kevuuhdkesahf0oquo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

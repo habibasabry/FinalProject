@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".AboutApp">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="118dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/icon2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="190dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#6086E6A1"
+        android:fontFamily="@font/almarai_bold"
+        android:gravity="center"
+        android:text="* يقدم التطبيق خدمات عديدة منها: عرض الأماكن المستعدة للتبرع بالطعام الفائض. "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TaxtViwe"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/almarai_bold"
+        android:gravity="right"
+        android:text="نبذة عن التطبيق"
+        android:textColor="#FFFAF1"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/almarai"
+        android:gravity="right"
+        android:text="تطبيق عاوِن هو تطبيق يهدف الى وقف هدر الطعام، حتى ينشأ لنا مجتمع بلا مجاعات في المستقبل، وذلك عن طريق التالي:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="190dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#6086E6A1"
+        android:fontFamily="@font/almarai_bold"
+        android:gravity="center"
+        android:text="* يساعد التطبيق كل من هو بحاجة الى هذا الطعام. فهو يعتبر حلقة وصل بين المحتاج و المكان المتوفر به الفائض. "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="10dp"
+        android:background="#6086E6A1"
+        android:fontFamily="@font/almarai_bold"
+        android:gravity="center"
+        android:text="* وهذا يتم عن طريق دخول المستخدم سواء كان مؤسسة خيرية أو أفراد متطوعين وغيره، لتوصيل هذا الطعام لمن يحتاجه، والبحث عن أنسب مكان له وبالتالي سيجد كل المعلومات التي يحتاجها وطرق التواصل مع المكان. "
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Restaurants">
+
+    <TextView
+        android:id="@+id/TaxtViwe"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/almarai_bold"
+        android:gravity="left"
+        android:text="قائمة المطاعم"
+        android:textColor="#FFFAF1"
+        android:textSize="60sp" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="50dp" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_corners"
+        app:itemIconTint="@color/color_icon"
+        app:itemRippleColor="#FFFAF1"
+        app:itemTextColor="#FFFAF1">
+
+        <ImageView
+            android:id="@+id/Home"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+
+        <ImageView
+            android:id="@+id/Profile"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="198dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"/>
+
+
+        <ImageView
+            android:id="@+id/Logout"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="5dp"
+            android:onClick="logout"
+            app:srcCompat="@drawable/ic_baseline_login_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

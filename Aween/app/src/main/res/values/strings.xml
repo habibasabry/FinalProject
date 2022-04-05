@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aween</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="inputText">Enter something here</string>
+    <string name="btnAddText">Add</string>
+</resources>
